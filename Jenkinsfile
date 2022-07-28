@@ -3,7 +3,7 @@ pipeline
     agent any
     stages
     {
-        echo "Download Begins"
+        echo "Download Begins...."
         stage('ContinuousDownload')
         {
             steps
