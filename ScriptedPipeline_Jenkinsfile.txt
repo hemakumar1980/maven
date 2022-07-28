@@ -1,5 +1,6 @@
 node('master') 
 {
+echo "testing.."
   stage('ContinuousDownload') 
   {
     git 'https://github.com/selenium-saikrishna/maven.git'
